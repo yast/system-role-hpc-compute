@@ -1,4 +1,4 @@
-system-role-hpc
+system-role-hpc-compute
 ==============================
 
 Extension package that lives in module and extend installation by roles provided by this module.
