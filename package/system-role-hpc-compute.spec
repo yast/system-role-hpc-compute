@@ -1,7 +1,7 @@
 #
 # spec file for package system-role-hpc-compute
 #
-# Copyright (c) 2017 SUSE LINUX GmbH, Nuernberg, Germany.
+# Copyright (c) 2018 SUSE LINUX GmbH, Nuernberg, Germany.
 #
 # All modifications and additions to the file contributed by third parties
 # remain the property of their copyright owners, unless otherwise agreed
@@ -33,9 +33,9 @@ BuildRequires:  libxml2-tools
 # RNG validation schema
 BuildRequires:  yast2-installation-control >= 4.0.0
 
-Url:            https://github.com/mslacken/system-role-hpc
+Url:            https://github.com/yast/system-role-hpc-compute
 AutoReqProv:    off
-Version:        15.0.7
+Version:        15.0.8
 Release:        0
 Summary:        Server HPC role definition
 License:        MIT
