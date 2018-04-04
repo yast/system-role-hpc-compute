@@ -1,3 +1,7 @@
+Wed Apr  4 09:50:00 UTC 2018 - cgoll@suse.com
+
+- added yast2_basis pattern to installation roles (bsc#1087944)
+
 -------------------------------------------------------------------
 Fri Mar 16 07:18:14 UTC 2018 - eich@suse.com
 
