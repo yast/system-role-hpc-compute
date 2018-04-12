@@ -1,4 +1,5 @@
-Wed Apr 12 12:00:00 UTC 2018 - cgoll@suse.com
+-------------------------------------------------------------------
+Thu Apr 12 14:26:29 UTC 2018 - cgoll@suse.com
 
 - Setting minimalistic_libzypp_config to false (bsc#1088275)
 
