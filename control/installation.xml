@@ -17,7 +17,9 @@
     <label>• minimal setup
 • HPC enabled libraries
 • disabled firewall, kdump services
-• no seperate home partition</label>
+• no seperate home partition
+• slurm  workload manager client
+• xfs as default file system</label>
   </hpc_node_description>
 </texts>
 
