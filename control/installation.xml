@@ -14,12 +14,13 @@
     <label>HPC Compute Node</label>
   </hpc_node>
   <hpc_node_description>
-    <label>• xfs as default file system</label>
+    <label>• xfs as default filesystem
 • include HPC enabled libraries
 • disabled firewall, kdump services
 • minimal setup
 • slurm workload manager client
 • no seperate home partition
+</label>
   </hpc_node_description>
 </texts>
 
