@@ -1,3 +1,10 @@
+-------------------------------------------------------------------
+Thu Apr 12 14:26:29 UTC 2018 - cgoll@suse.com
+
+- Setting minimalistic_libzypp_config to false (bsc#1088275)
+- Synced descriptions with FATE#323494 (bsc#1089392)
+
+-------------------------------------------------------------------
 Wed Apr  4 09:50:00 UTC 2018 - cgoll@suse.com
 
 - added yast2_basis pattern to installation roles (bsc#1087944)
