@@ -11,13 +11,17 @@
 <texts>
   <hpc_node>
     <!-- TRANSLATORS: a label for a system role -->
-    <label>HPC node</label>
+    <label>HPC Compute Node</label>
   </hpc_node>
   <hpc_node_description>
-    <label>• minimal setup
-• includes HPC enabled libraries
-• disable firewall, kdump services
-• no home directory</label>
+    <label>• Uses xfs as the default root filesystem
+• Includes HPC-enabled libraries
+• Disables firewall and kdump services
+• Based from minimal setup configuration
+• Installs client for the Slurm Workload Manager 
+• Does not create a seperate home partition
+• Mounts a large scratch partition to /var/tmp
+</label>
   </hpc_node_description>
 </texts>
 
@@ -29,7 +33,7 @@
             <system_roles config:type="list">
               <system_role>
                 <id>hpc_node</id>
-                <order config:type="integer">2000</order>
+                <order config:type="integer">1500</order>
                 <!-- the rest is overlaid over the feature sections and values. -->
 		<globals>
 		  <enable_autologin config:type="boolean">false</enable_autologin>
@@ -109,7 +113,9 @@
 		  <!-- we do need most likely more repos with "base ofed"-->
                   <default_patterns>minimal_base hpc_compute_node hpc_libraries ofed yast2_basis</default_patterns>
                   <clone_install_recommended_default config:type="boolean">true</clone_install_recommended_default>
-                  <minimalistic_libzypp_config config:type="boolean">true</minimalistic_libzypp_config>
+		  <!-- minimalistic install keeps out recommended packages what will break
+		       hpc-patterns (bsc#1088275) -->
+                  <minimalistic_libzypp_config config:type="boolean">false</minimalistic_libzypp_config>
                   <display_support_status config:type="boolean">true</display_support_status>
                   <!-- the cdata trick produces an empty string in the data
                   instead of omitting the key entirely -->
