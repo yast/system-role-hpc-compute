@@ -1,13 +1,10 @@
 -------------------------------------------------------------------
-<<<<<<< HEAD
-=======
 Wed May 30 06:22:11 UTC 2018 - jsrain@suse.cz
 
 - rename SLES_HPC -> SLE_HPC (bsc#1095053)
 - 15.0.13
 
 -------------------------------------------------------------------
->>>>>>> SLE-15-GA
 Wed May  9 12:03:45 UTC 2018 - cgoll@suse.com
 
 - added option disable_order to root-fs in order to fit on small
