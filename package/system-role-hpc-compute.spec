@@ -35,7 +35,7 @@ BuildRequires:  yast2-installation-control >= 4.0.0
 
 Url:            https://github.com/yast/system-role-hpc-compute
 AutoReqProv:    off
-Version:        15.0.12
+Version:        15.0.13
 Release:        0
 Summary:        Server HPC role definition
 License:        MIT
@@ -44,7 +44,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 Source:         %{name}-%{version}.tar.bz2
 Provides:       installer_module_extension() = system-role-hpc-compute
 #Should work with this, but does not
-Provides:       extension_for_product() = SLES_HPC
+Provides:       extension_for_product() = SLE_HPC
 
 %description
 Meta package for Server HPC role definition. This is the compute node
