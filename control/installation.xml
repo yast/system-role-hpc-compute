@@ -79,7 +79,7 @@
                       <!-- the default subvolume "@" was requested by product management -->
                       <btrfs_default_subvolume>@</btrfs_default_subvolume>
                       <btrfs_read_only config:type="boolean">false</btrfs_read_only>
-                      <!-- disbale snaphots if space is small -->
+                      <!-- Disable snaphots if space is small -->
                       <disable_order config:type="integer">3</disable_order>
 
                       <!-- subvolumes to be created for a Btrfs root file system -->
@@ -124,6 +124,10 @@
                         <subvolume>
                           <path>boot/grub2/s390x-emu</path>
                           <archs>s390</archs>
+                        </subvolume>
+                        <subvolume>
+                          <path>boot/grub2/arm64-efi</path>
+                          <archs>aarch64</archs>
                         </subvolume>
                       </subvolumes>
                     </volume>
