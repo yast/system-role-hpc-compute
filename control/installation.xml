@@ -20,6 +20,7 @@
 • Based from minimal setup configuration
 • Installs client for the Slurm Workload Manager 
 • Does not create a seperate home partition
+• Does not create a local user
 • Mounts a large scratch partition to /var/tmp
 </label>
   </hpc_node_description>
@@ -48,6 +49,7 @@
                   <default_target>multi-user</default_target>
                   <disable_os_prober config:type="boolean">true</disable_os_prober>
                   <root_password_as_first_user config:type="boolean">true</root_password_as_first_user> 
+		  <enable_local_users config:type="boolean">false</enable_local_users>
                 </globals>
                 <partitioning>
                 <!-- The whole list of volumes and the whole section for proposal settings
