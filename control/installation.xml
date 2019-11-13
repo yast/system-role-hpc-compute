@@ -19,7 +19,7 @@
 • Disables firewall and kdump services
 • Based from minimal setup configuration
 • Installs client for the Slurm Workload Manager 
-• Does not create a seperate home partition
+• Does not create a separate home partition
 • Does not create a local user
 • Mounts a large scratch partition to /var/tmp
 </label>
